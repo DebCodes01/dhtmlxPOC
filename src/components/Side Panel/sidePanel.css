@@ -1,0 +1,52 @@
+/* Side Panel container */
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    background-color: #f1f1f1;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    transition: transform 0.05s ease;
+    z-index: 1000;
+  }
+  
+  /* Show the panel when it's open */
+  .side-panel.open {
+    transform: translateX(0);
+  }
+  
+  /* Side panel content */
+  .side-panel-content {
+    padding: 20px;
+  }
+  
+  /* Button to open the panel */
+  .open-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  /* Button to close the panel */
+  .close-btn {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    width: 100%;
+  }
+  
+  /* Prevent scroll issues on the main content */
+  body {
+    overflow-y: auto;
+  }
+  

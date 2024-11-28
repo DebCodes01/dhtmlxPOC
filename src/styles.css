@@ -1,0 +1,144 @@
+html,
+body,
+#root {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.gantt-container {
+  height: 94vh;
+}
+
+.gantt-container-squeezed {
+  margin-right: 320px;
+}
+
+.gantt_task_content {
+  display: none;
+}
+
+.vendor {
+  background-color: #d0d0d0 !important;
+  opacity: 50%;
+  border: none;
+  height: 15px !important;
+  margin-top: 7px;
+}
+
+.submittal {
+  background-color: #5b85df;
+  opacity: 50%;
+  border: none;
+  border-radius: 0px;
+  height: 15px !important;
+  margin-top: 7px;
+}
+
+.material {
+  background-color: #9ad4ed;
+  opacity: 50%;
+  border: none;
+  border-radius: 0px;
+  height: 15px !important;
+  margin-top: 7px;
+}
+
+.activity-box {
+  width: 14px;
+  height: 10px;
+  background-color: #cab0b0;
+  margin-left: 0px;
+  border-radius: 0px;
+  stroke: #3b3b3b4d;
+  stroke-width: 0.5px;
+}
+
+.subSubmittal {
+  background-color: #5b85df;
+  opacity: 50%;
+  border: none;
+  border-radius: 0px;
+  height: 15px !important;
+  margin-top: 7px;
+}
+
+.subMaterial {
+  background-color: #5b85df;
+  opacity: 50%;
+  border: none;
+  border-radius: 0px;
+  height: 15px !important;
+  margin-top: 7px;
+}
+
+.gantt_task_line.gantt_split_parent {
+  background-color: white;
+}
+
+.risk_subSubmittal {
+  background-color: #fd7e7e !important;
+  opacity: 50%;
+  border: none;
+  border-radius: 0px;
+  height: 15px !important;
+  margin-top: 7px;
+}
+
+.gantt_grid_head_text {
+  display: none !important;
+  border: none;
+}
+
+.gantt_side_content.gantt_right {
+  padding-left: 0px !important;
+}
+
+.gantt_grid_data .gantt_row.odd:hover,
+.gantt_grid_data .gantt_row:hover,
+.gantt_grid_data .gantt_row.gantt_selected,
+.gantt_grid_data .gantt_row.odd.gantt_selected,
+.gantt_task_row.gantt_selected {
+  background-color: white;
+}
+
+.gantt_tree_content {
+  padding-left: 5px;
+}
+
+.gantt_tree_icon.gantt_folder_closed {
+  display: none;
+}
+
+.gantt_tree_icon.gantt_folder_open {
+  display: none;
+}
+
+.gantt_tree_icon.gantt_file {
+  display: none;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.icon-text svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.icon-text p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.gantt_task_background {
+  background-color: #de7a43 !important;
+  border: none;
+  border-radius: 0px;
+  height: 15px !important;
+  margin-top: 7px;
+}
